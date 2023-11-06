@@ -1,0 +1,38 @@
+.footerContainer {
+    width: 100%;
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 40px;
+    background-color: #FF9900;
+    color: rgb(9, 14, 77);
+}
+
+.iconLeft {
+    margin: 1rem;
+}
+
+.iconRight {
+    margin: 1rem;
+    margin-top: 0;
+}
+.icons{
+    margin-right: 2rem;
+}
+.github a{
+    text-decoration: none;
+    color: rgb(9, 14, 77);
+}
+
+.linkedin a{
+    text-decoration: none;
+    color: rgb(9, 14, 77);
+}
+@media screen and (max-width:845px) {
+    .footerContainer {
+        position: absolute;
+        margin-top: -2.5rem;
+        grid-template-columns: 1fr;
+    }
+
+}

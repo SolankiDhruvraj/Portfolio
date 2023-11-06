@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+.computerImg {
+    height: 35vh;
+    width: 100%;
+}
+
+.projectSourcebtn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card {
+    max-width: 95%;
+    background: transparent;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5rem;
+    margin: 5rem;
+    margin-top: -5rem;
+    border-radius: 15px;
+}
+
+.projectCard {
+    color: white;
+    padding: 1.5rem;
+    background-color: #ef6a0c;
+    border-radius: 15px;
+    font-family: 'Itim', cursive;
+}
+
+.projectContainer {
+    display: flex;
+    flex-direction: column;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    width: 100%;
+}
+
+.projectHeading {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.projectText1 {
+    color: rgb(9, 14, 77);
+    font-weight: 900;
+    font-size: 2.5rem;
+    font-family: 'Itim', cursive;
+}
+
+.projectText2 {
+    color: rgb(9, 14, 77);
+    font-weight: 900;
+    font-size: 1.7rem;
+    font-family: 'Itim', cursive;
+}
+
+.projectTitle {
+    font-family: 'Itim', cursive;
+    font-weight: 900;
+    color: rgb(9, 14, 77);
+    margin: 1rem;
+}
+
+.projectDetails {
+    font-family: 'Itim', cursive;
+    color: rgb(9, 14, 77);
+    margin: 1rem;
+}
+
+.viewBtn,
+.sourceBtn {
+    padding: 0.5rem;
+    background-color: #FF9900;
+    border-radius: 10px;
+}
+
+.viewBtn a,
+.sourceBtn a {
+    color: white;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+.viewBtn:hover {
+    background-color: rgb(9, 14, 77);
+}
+
+.sourceBtn:hover {
+    background-color: rgb(9, 14, 77);
+}
+
+@media screen and (max-width:1260px) {
+    .card {
+        max-width: 90%;
+        margin: auto;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+@media screen and (max-width:725px) {
+    .card {
+        max-width: 90%;
+        margin: auto;
+        grid-template-columns: 1fr;
+    }
+
+}
+
+@media screen and (max-width:725px) {
+    .projectText1 {
+        font-size: 2rem;
+    }
+    
+    .projectText2 {
+        font-size: 1.3rem;
+    }
+
+}

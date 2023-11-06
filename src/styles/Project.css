@@ -1,0 +1,15 @@
+/* body{
+    background-color: rgb(176, 208, 176);
+} */
+.projectMain::before {
+    content: "";
+    background: url("https://img.freepik.com/free-vector/white-abstract-background-design_23-2148825582.jpg?w=360");
+    background-size: cover;
+    background-position: center top;
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
