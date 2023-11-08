@@ -21,7 +21,7 @@ const NavBar = () => {
       <ul className={click ? ('navmenu active') : ('navmenu')}>
         <li><Link to="/" className='navMenuLinks'>Home</Link></li>
         <li><Link to="/project" className='navMenuLinks'>Projects</Link></li>
-        <li><Link to="/about" className='navMenuLinks'>About</Link></li>
+        {/* <li><Link to="/about" className='navMenuLinks'>About</Link></li> */}
         <li><Link to="/contact" className='navMenuLinks'>Contact</Link></li>
       </ul>
       <div className="hamburger" onClick={handleClick}>

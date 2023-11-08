@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import '../styles/About.css';
-import resume from '../DhruvrajResume.pdf';
+// import resume from '../DhruvrajResume.pdf';
 import NavBar from '../components/NavBar';
 const About = () => {
   return (
@@ -61,10 +61,10 @@ const About = () => {
           <div><a href='https://www.hackerrank.com/E38_Dhruvraj' target="_blank">Hackerrank</a></div>
           <div><a href='https://leetcode.com/dhruvraj_747/' target="_blank">Leetcode</a></div>
         </div>
-        <div className="resumeDownload">
-          <h2>Click here to Download Resume</h2>
-          <a className='resumeBtn' href={resume} target="_blank">Download Resume</a>
-        </div>
+        {/* <div className="resumeDownload"> */}
+          {/* <h2>Click here to Download Resume</h2> */}
+          {/* <a className='resumeBtn' href={resume} target="_blank">Download Resume</a> */}
+        {/* </div> */}
       </div>
     </div>
   )
